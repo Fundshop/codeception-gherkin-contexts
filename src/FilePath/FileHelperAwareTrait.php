@@ -36,7 +36,7 @@ trait FileHelperAwareTrait
      * @param FileHelper $fileHelper
      * @return self
      */
-    public function setFileHelper(FileHelper $fileHelper): self
+    public function setFileHelper(FileHelper $fileHelper)
     {
         $this->fileHelper = $fileHelper;
         return $this;
